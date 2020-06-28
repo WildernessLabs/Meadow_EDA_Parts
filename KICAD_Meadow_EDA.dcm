@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MEADOWF7MICRO_WITH_OUTLINE
+D F7 micro development kit
+K STm32F7 Meadow
+F https://store.wildernesslabs.co/collections/frontpage/products/meadow-f7
+$ENDCMP
+#
+#End Doc Library
