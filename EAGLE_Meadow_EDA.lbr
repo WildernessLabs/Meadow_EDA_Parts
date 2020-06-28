@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Connectors</description>
+<packages>
+<package name="MEADOW_F7_MICRO">
+<pad name="1" x="0" y="0" drill="1" diameter="1.4986" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="1" diameter="1.4986"/>
+<pad name="3" x="0" y="-5.08" drill="1" diameter="1.4986"/>
+<pad name="4" x="0" y="-7.62" drill="1" diameter="1.4986"/>
+<pad name="5" x="0" y="-10.16" drill="1" diameter="1.4986"/>
+<pad name="6" x="0" y="-12.7" drill="1" diameter="1.4986"/>
+<pad name="7" x="0" y="-15.24" drill="1" diameter="1.4986"/>
+<pad name="8" x="0" y="-17.78" drill="1" diameter="1.4986"/>
+<pad name="9" x="0" y="-20.32" drill="1" diameter="1.4986"/>
+<pad name="10" x="0" y="-22.86" drill="1" diameter="1.4986"/>
+<pad name="11" x="0" y="-25.4" drill="1" diameter="1.4986"/>
+<pad name="12" x="0" y="-27.94" drill="1" diameter="1.4986"/>
+<pad name="13" x="0" y="-30.48" drill="1" diameter="1.4986"/>
+<pad name="14" x="0" y="-33.02" drill="1" diameter="1.4986"/>
+<pad name="15" x="0" y="-35.56" drill="1" diameter="1.4986"/>
+<pad name="16" x="0" y="-38.1" drill="1" diameter="1.4986"/>
+<pad name="17" x="0" y="-40.64" drill="1" diameter="1.4986"/>
+<pad name="18" x="0" y="-43.18" drill="1" diameter="1.4986"/>
+<pad name="19" x="20.32" y="-43.18" drill="1" diameter="1.4986"/>
+<pad name="20" x="20.32" y="-40.64" drill="1" diameter="1.4986"/>
+<pad name="21" x="20.32" y="-38.1" drill="1" diameter="1.4986"/>
+<pad name="22" x="20.32" y="-35.56" drill="1" diameter="1.4986"/>
+<pad name="23" x="20.32" y="-33.02" drill="1" diameter="1.4986"/>
+<pad name="24" x="20.32" y="-30.48" drill="1" diameter="1.4986"/>
+<pad name="25" x="20.32" y="-27.94" drill="1" diameter="1.4986"/>
+<pad name="26" x="20.32" y="-25.4" drill="1" diameter="1.4986"/>
+<pad name="27" x="20.32" y="-22.86" drill="1" diameter="1.4986"/>
+<pad name="28" x="20.32" y="-20.32" drill="1" diameter="1.4986"/>
+<pad name="29" x="20.32" y="-17.78" drill="1" diameter="1.4986"/>
+<pad name="30" x="20.32" y="-15.24" drill="1" diameter="1.4986"/>
+<pad name="31" x="20.32" y="-12.7" drill="1" diameter="1.4986"/>
+<pad name="32" x="20.32" y="-10.16" drill="1" diameter="1.4986" shape="octagon"/>
+<text x="1.27" y="0" size="1.27" layer="21">1</text>
+<text x="1.27" y="-43.18" size="1.27" layer="21">18</text>
+<text x="16.51" y="-43.18" size="1.27" layer="21">19</text>
+<text x="16.51" y="-10.16" size="1.27" layer="21">32</text>
+<text x="7.62" y="-19.05" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.62" y="-21.59" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="27"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-44.45" width="0.127" layer="27"/>
+<wire x1="1.27" y1="-44.45" x2="-1.27" y2="-44.45" width="0.127" layer="27"/>
+<wire x1="-1.27" y1="-44.45" x2="-1.27" y2="1.27" width="0.127" layer="27"/>
+<wire x1="19.05" y1="-8.89" x2="19.05" y2="-44.45" width="0.127" layer="27"/>
+<wire x1="19.05" y1="-44.45" x2="21.59" y2="-44.45" width="0.127" layer="27"/>
+<wire x1="21.59" y1="-44.45" x2="21.59" y2="-8.89" width="0.127" layer="27"/>
+<wire x1="21.59" y1="-8.89" x2="19.05" y2="-8.89" width="0.127" layer="27"/>
+<circle x="1.27" y="-58.547" radius="1.778" width="0.127" layer="21"/>
+<circle x="1.27" y="10.033" radius="1.778" width="0.127" layer="21"/>
+<circle x="19.05" y="10.033" radius="1.778" width="0.127" layer="21"/>
+<circle x="19.05" y="-58.547" radius="1.778" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-58.547" x2="-1.27" y2="10.033" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="10.033" x2="-1.27" y2="10.16" width="0.127" layer="21"/>
+<wire x1="21.59" y1="10.033" x2="21.59" y2="-58.547" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-58.547" x2="21.59" y2="-58.42" width="0.127" layer="21"/>
+<wire x1="1.27" y1="12.573" x2="19.05" y2="12.573" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-61.087" x2="19.05" y2="-61.087" width="0.127" layer="21"/>
+<wire x1="19.05" y1="12.573" x2="21.59" y2="10.033" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="10.033" x2="1.27" y2="12.573" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-61.087" x2="-1.27" y2="-58.547" width="0.127" layer="21" curve="-90"/>
+<wire x1="21.59" y1="-58.547" x2="19.05" y2="-61.087" width="0.127" layer="21" curve="-90"/>
+<dimension x1="-1.27" y1="10.033" x2="21.59" y2="8.89" x3="10.16" y3="17.78" textsize="1.27" layer="21" dtype="horizontal" unit="mil"/>
+<dimension x1="1.27" y1="10.16" x2="19.05" y2="10.16" x3="10.16" y3="13.97" textsize="1.27" layer="21" dtype="horizontal" unit="mil"/>
+<dimension x1="19.05" y1="12.573" x2="19.05" y2="-61.087" x3="34.29" y3="-24.257" textsize="1.27" layer="21" dtype="vertical" unit="mil"/>
+<dimension x1="0" y1="-43.18" x2="20.32" y2="-43.18" x3="10.16" y3="-72.39" textsize="1.27" layer="21" dtype="horizontal" unit="mil"/>
+<dimension x1="1.27" y1="10.16" x2="1.27" y2="-58.42" x3="-15.24" y3="-24.13" textsize="1.27" layer="21" dtype="vertical" unit="mil"/>
+<dimension x1="1.27" y1="10.033" x2="0" y2="0" x3="-6.223" y3="5.0165" textsize="1.27" layer="21" dtype="vertical" unit="mil"/>
+<dimension x1="0" y1="-43.18" x2="1.27" y2="-58.547" x3="-7.493" y3="-50.8635" textsize="1.27" layer="21" dtype="vertical" unit="mil"/>
+<dimension x1="20.32" y1="-10.16" x2="20.32" y2="0" x3="27.94" y3="-5.08" textsize="1.27" layer="21" dtype="vertical" unit="mil"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MEADOW_F7_MICRO">
+<description>Wilderness labs Micro f7 schematic symbol</description>
+<pin name="RESET_L" x="-12.7" y="20.32" length="middle" direction="in"/>
+<pin name="+3V3" x="-12.7" y="17.78" length="middle" direction="pwr"/>
+<pin name="AREF" x="-12.7" y="15.24" length="middle" direction="pwr"/>
+<pin name="GND" x="-12.7" y="12.7" length="middle" direction="pwr"/>
+<pin name="A0" x="-12.7" y="10.16" length="middle"/>
+<pin name="A1" x="-12.7" y="7.62" length="middle"/>
+<pin name="A2" x="-12.7" y="5.08" length="middle"/>
+<pin name="A3" x="-12.7" y="2.54" length="middle"/>
+<pin name="A4" x="-12.7" y="0" length="middle"/>
+<pin name="A5" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SCK" x="-12.7" y="-5.08" length="middle"/>
+<pin name="MOSI" x="-12.7" y="-7.62" length="middle"/>
+<pin name="D00/COM4_RX" x="-12.7" y="-12.7" length="middle"/>
+<pin name="D01/COM4_TX" x="-12.7" y="-15.24" length="middle"/>
+<pin name="D05" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="D06" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="D07/I2C_SDA" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="D08/I2C_SCK" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="D09" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="D10" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="D11" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="D12/COM1_TX" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="D13/COM1_RX" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="D14" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="D15" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="+5V" x="30.48" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN_+3V3" x="30.48" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="+VBAT" x="30.48" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="D03/CAN_RX" x="-12.7" y="-20.32" length="middle"/>
+<pin name="D04/CAN_TX" x="-12.7" y="-22.86" length="middle"/>
+<pin name="D02" x="-12.7" y="-17.78" length="middle"/>
+<wire x1="-7.62" y1="22.86" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="25.4" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-25.4" x2="25.4" y2="22.86" width="0.254" layer="94"/>
+<wire x1="25.4" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<text x="-7.62" y="25.4" size="1.778" layer="94">&gt;NAME</text>
+<text x="15.24" y="25.4" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="MISO" x="-12.7" y="-10.16" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MEADOW_F7_MICRO">
+<description>Wilderness labs f7 micro. Bluetooth wifi</description>
+<gates>
+<gate name="G$1" symbol="MEADOW_F7_MICRO" x="-7.62" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="MEADOW_F7_MICRO">
+<connects>
+<connect gate="G$1" pin="+3V3" pad="2"/>
+<connect gate="G$1" pin="+5V" pad="30"/>
+<connect gate="G$1" pin="+VBAT" pad="32"/>
+<connect gate="G$1" pin="A0" pad="5"/>
+<connect gate="G$1" pin="A1" pad="6"/>
+<connect gate="G$1" pin="A2" pad="7"/>
+<connect gate="G$1" pin="A3" pad="8"/>
+<connect gate="G$1" pin="A4" pad="9"/>
+<connect gate="G$1" pin="A5" pad="10"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="D00/COM4_RX" pad="14"/>
+<connect gate="G$1" pin="D01/COM4_TX" pad="15"/>
+<connect gate="G$1" pin="D02" pad="16"/>
+<connect gate="G$1" pin="D03/CAN_RX" pad="17"/>
+<connect gate="G$1" pin="D04/CAN_TX" pad="18"/>
+<connect gate="G$1" pin="D05" pad="19"/>
+<connect gate="G$1" pin="D06" pad="20"/>
+<connect gate="G$1" pin="D07/I2C_SDA" pad="21"/>
+<connect gate="G$1" pin="D08/I2C_SCK" pad="22"/>
+<connect gate="G$1" pin="D09" pad="23"/>
+<connect gate="G$1" pin="D10" pad="24"/>
+<connect gate="G$1" pin="D11" pad="25"/>
+<connect gate="G$1" pin="D12/COM1_TX" pad="26"/>
+<connect gate="G$1" pin="D13/COM1_RX" pad="27"/>
+<connect gate="G$1" pin="D14" pad="28"/>
+<connect gate="G$1" pin="D15" pad="29"/>
+<connect gate="G$1" pin="EN_+3V3" pad="31"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MOSI" pad="12"/>
+<connect gate="G$1" pin="RESET_L" pad="1"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wilderness Labs"/>
+<attribute name="PN" value="Meadow F7 Micro"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
