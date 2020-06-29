@@ -14,4 +14,4 @@ Contains the schematic symbols and PCB footprints for Meadow boards and modules 
 
 # 3D Models
 There are 3D models of our boards located in the 3D model folder. They are not complete but it is a good starting point. 
-![image of meadow F7 3D model](https://github.com/WildernessLabs/Meadow_EDA_Parts/blob/master/MeadowF73d)
+![image of meadow F7 3D model](https://github.com/WildernessLabs/Meadow_EDA_Parts/blob/master/MeadowF73d.png)
