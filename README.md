@@ -21,6 +21,7 @@ Contains the schematic symbols and PCB footprints for Meadow boards and modules 
 EasyEDA symbols and footprints can be found by searching for "Meadow" in the EasyEDA _Library_.
 
 ![image of EasyEDA F7 v1 symbol](readme-images/EasyEDA_F7v1_Symbol.png)
+![image of EasyEDA F7 v1 footprint](readme-images/EasyEDA_F7v1_Footprint.png)
 
 
 # 3D Models
