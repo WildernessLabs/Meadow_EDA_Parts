@@ -37,6 +37,6 @@ There are 3D models of our boards located in the 3D model folder:
 
 <img alt="image of meadow F7 SketchUp 3D model" src="readme-images/SketchUpModel.png" width="600" />
 
-- `MeadowF7Micro_REVD.step` is the 3D model of the board saved in STEP format. It's not complete but it is a good starting point for Eagle and EasyEDA.
+- `MeadowF7Micro_REVD.step` is the 3D model of the board saved in STEP format. It's not complete but it is a good starting point for creating more refined models.
 
 <img alt="image of meadow F7 STEP 3D model" src="readme-images/MeadowF73d.png" width="600" />
