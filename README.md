@@ -7,15 +7,15 @@ Contains the schematic symbols and PCB footprints for Meadow boards and modules 
 - [Eagle Install instructions](Eagle_Install.md)
 - [KiCad Install instructions](KiCad_Install.md)
 
-## Eagle Libraries
+# Content
 
-### Eagle
+## Eagle Libraries
 
 - `EAGLE_Meadow_EDA.lbr` has both schematic symbol and layout footprint
 
 <img alt="image of Eagle Symbol" src="readme-images/Eagle_f7_symbol.png" width="600" />
 
-### KiCad
+## KiCad Libraries
 
  - Schematic symbol located in `KICAD_Meadow_EDA.lib` file
  - Layout footpring located in `KICAD_Meadow_EDA.pretty` folder
@@ -23,13 +23,11 @@ Contains the schematic symbols and PCB footprints for Meadow boards and modules 
 
 <img alt="image of Kicad Symbol" src="readme-images/Kicad_f7_symbol.png" width="600" />
 
-### EasyEDA
+## EasyEDA Libraries
 
 EasyEDA symbols and footprints can be found by searching for "Meadow" in the EasyEDA _Library_.
 
-<img alt="image of EasyEDA F7 v1 symbol" src="readme-images/EasyEDA_F7v1_Symbol.png" width="600" />
-
-<img alt="image of EasyEDA F7 v1 footprint" src="readme-images/EasyEDA_F7v1_Footprint.png" width="600" />
+<img alt="image of EasyEDA F7 v1 symbol" src="readme-images/EasyEDA_f7_Symbol_Footprint.png" width="600" />
 
 ## 3D Models
 
